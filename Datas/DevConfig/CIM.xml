@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <!-- CIM設定ファイル -->
+  
+  <!-- FTPサーバーのパス -->
+  <ServerPath>ftp://127.0.0.1:49500/</ServerPath>
+  <!-- ログインユーザ名 -->
+  <User>cimusr</User>
+  <!-- ログインパスワード -->
+  <Password>ABCABC</Password>
+  
+  <!-- 作業工程コード -->
+  <ProcCD>MM60</ProcCD>
+  <!-- 業務ID -->
+  <WorkID>DE01</WorkID>
+
+
+  <!-- 設備コード -->
+  <EQCD>MFFA01</EQCD>
+  <!-- 設備コード(裏面用) -->
+  <EQCD_B>MFBA01</EQCD_B>
+
+
+</Setting>

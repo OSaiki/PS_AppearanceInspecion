@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 表面外観検査項目ファイル -->
+
+<Recipe>
+  
+  <!-- 「不良コード」と「項目名」をカンマで繋げて指定する -->
+  <Inspection>1,ヒビ</Inspection>
+  <Inspection>2,汚れ</Inspection>
+  <Inspection>13,キズ,改行</Inspection>
+  <Inspection>123,その他</Inspection>
+
+</Recipe>

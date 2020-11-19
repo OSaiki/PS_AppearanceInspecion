@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <!-- PLC設定ファイル -->
+  
+  <stub>true</stub>
+  
+  <!-- KV-N60AT用接続設定 -->
+  <PortName>COM21</PortName>
+
+  <!-- ボーレート設定 -->
+  <BaudRate>9600</BaudRate>
+  <!-- パリティ設定 -->
+  <Parity>Even</Parity>
+
+
+</Setting>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 出荷前外観検査レシピファイル -->
+<!-- ファイル名は「数字4桁.xml」にすること -->
+
+<Recipe>
+  
+  <!-- 品目コード -->
+  <ItemCode>9000001T1</ItemCode>
+
+  <!-- 品種(プリンタで使用) -->
+  <ProductName>EPM216Q001A</ProductName>
+  
+  <!-- QRコード印刷設定(プリンタで使用) -->
+  <PrinterBarcodeSetting>PrinterTemplate\JOLED Inc.QR9mm.lbx:3</PrinterBarcodeSetting>
+  <!-- テキスト印刷設定(プリンタで使用) -->
+  <PrinterTextSetting>PrinterTemplate\JOLED Inc.ID9mm.lbx:2</PrinterTextSetting>
+
+
+  <!-- 裏面検査レシピファイル(同一フォルダ内の場合はファイル名のみ指定) -->
+  <RecipeB>1111_B.xml</RecipeB>
+
+  <!-- 表面検査レシピファイル(同一フォルダ内の場合はファイル名のみ指定) -->
+  <RecipeF>1111_F.xml</RecipeF>
+
+</Recipe>

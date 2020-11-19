@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 裏面外観検査項目ファイル -->
+
+<Recipe>
+  
+  <!-- 「不良コード」と「項目名」をカンマで繋げて指定する -->
+  <Inspection>1234,表面異物,改行</Inspection>
+  <Inspection>1235,表面キズ</Inspection>
+
+</Recipe>

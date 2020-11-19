@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 表面外観検査項目ファイル -->
+
+<Recipe>
+  
+  <!-- 「不良コード」と「項目名」をカンマで繋げて指定する -->
+  <Inspection>3333,表面異物</Inspection>
+  <Inspection>3334,表面キズ</Inspection>
+  <Inspection>0001,気泡</Inspection>
+  <Inspection>0002,うねり</Inspection>
+  <Inspection>0500,割れ・欠け</Inspection>
+  <Inspection>0501,凸バリ</Inspection>
+  <Inspection>0502,汚れ</Inspection>
+  <Inspection>0111,糊かけ</Inspection>
+  <Inspection>0112,フィルム内欠陥</Inspection>
+  <Inspection>0113,フィルム貼り位置</Inspection>
+  <Inspection>0119,FPC外観</Inspection>
+  <Inspection>0777,PCB割れ欠け</Inspection>
+  <Inspection>0789,PCB部品剥がれ</Inspection>
+  <Inspection>2222,PCBラベル,改行</Inspection>
+
+
+  <Inspection>2223,PCBコネクタ</Inspection>
+  <Inspection>2224,PCB樹脂塗布</Inspection>
+  <Inspection>2225,放熱シートめくれ</Inspection>
+  <Inspection>2226,放熱シート位置</Inspection>
+
+  <Inspection>1238,a</Inspection>
+
+  <Inspection>9987,ああああ１２３４５</Inspection>
+  <Inspection>9988,ああああ１２３４５６７８９</Inspection>
+
+</Recipe>

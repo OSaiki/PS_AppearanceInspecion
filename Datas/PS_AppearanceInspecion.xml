@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SettingData>
+  <!-- 実装後検査アプリ設定ファイル -->
+  <!-- このファイル名「PreShipmentInspectionApplication.xml」は固定。exeと同階層に置くこと。 -->
+
+  <!-- モード設定。  InspectionSmall:小型検査モード , InspectionMiddle:中型検査モード, Debug:デバッグモード -->
+  <AppMode>InspectionMiddle</AppMode>
+
+  <!-- ログファイル出力先フォルダ -->
+  <LogDir>log</LogDir>
+  
+  <!-- ログ出力フィルター。
+       下の項目内にある文字のログレベルは出力対象外になる（空文字列は全部出力となる）
+         E : Error     : エラーログ
+         W : Warning   : ワーニングログ
+         S : System    : システムログ
+         I : Info      : 情報ログ
+         U : User      : 画面操作ログ
+         C : Comm      : 送受信ログ
+         D : Debug     : デバッグログ
+         T : Trace     : トレースログ
+    -->
+  <LogFilter></LogFilter>
+
+  <!-- ログ自動削除日数 （省略した場合、0以下の場合は削除は行わない） -->
+  <LogAutoEraseDays>10</LogAutoEraseDays>
+
+  <!-- オペレータリストファイル -->
+  <OperatorListFilePath>Operator\OperatorList.csv</OperatorListFilePath>
+
+  <!-- 検査モード設定ファイル -->
+  <InspectionSettingFilePath>MeasureSetting.xml</InspectionSettingFilePath>
+
+  <!-- 以下は、接続機器設定ファイル -->
+  <DeviceSettingFiles>
+    <!-- プリンター設定ファイル -->
+    <Printer>DevConfig\Printer.xml</Printer>
+    <!-- CIM設定ファイル -->
+    <CIM>DevConfig\CIM.xml</CIM>
+    <!-- PLC設定ファイル -->
+    <PLC>DevConfig\PLC.xml</PLC>
+  </DeviceSettingFiles>
+
+
+</SettingData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 裏面外観検査項目ファイル -->
+
+<Recipe>
+  
+  <!-- 「不良コード」と「項目名」をカンマで繋げて指定する -->
+  <Inspection>0999,test裏　1</Inspection>
+  <Inspection>0099,test裏　2,改行</Inspection>
+  <Inspection>0009,test裏　3</Inspection>
+
+</Recipe>
